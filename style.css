@@ -1,0 +1,115 @@
+
+
+body{
+  background-color:rgb(203, 206, 211);
+  font-family: Roboto;
+  min-width: 770px;
+}
+
+.navigace{
+  display:flex;
+  justify-content: space-around;
+  font-weight: bold;
+ }
+
+a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.popis {
+  background-image: url('slovakia-2769655__340.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  Height: 650px;
+  font-size: 50px;
+}
+
+.citat{
+  font-size: 40px;
+  color: white;
+  font-style: italic;
+  padding-top: 420px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+ }
+
+figcaption {
+  color: rgb(243, 73, 73);
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 50px;
+  text-align: center;
+ }
+
+  .text{
+   color: black;
+   width: 100%;
+   font-size: 40px;
+   margin: 0;
+   padding: 50px;
+   text-align: center;
+ }
+
+.cast2{
+display: flex;
+margin-top: 30px;
+}
+
+.foto {
+  position: relative;
+  width: 60%;
+  border-radius:50%;
+  margin-left: 150px;
+  margin-right:150px;
+ }
+
+ footer{
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .citat{
+   font-size: 40px;
+   padding-top: 350px;
+   margin-left: 20px;
+   margin-right: 20px;
+  }
+
+  .text{
+   font-size: 40px;
+   padding: 10px;
+ }
+
+ .foto {
+   margin-left:155px;
+   margin-right:155px;
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+   .citat{
+    font-size: 25px;
+    padding-top: 220px;
+   }
+
+   .text{
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .foto {
+    width: 80%;
+    margin-left:75px;
+    margin-right:75px;
+   }
+}
+
+
