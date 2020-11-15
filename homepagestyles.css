@@ -1,0 +1,122 @@
+html,
+body {
+  margin: 0;
+}
+
+.ramecObal {
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+}
+
+.section1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section2 {
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section3 {
+  background-color: #003990;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section4 {
+  background-color: #A5DDF7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section5 {
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section6 {
+  background-color: #003990;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section7 {
+  background-color: #A5DDF7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section8 {
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hlavniNadpis {
+  width: 70%;
+  background-color: #003990;
+  margin: auto;
+  text-align: center;
+}
+
+.mainHeadline {
+  color: white;
+}
+
+.popisProjektu, .prumysl {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.ukazka {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  background-color: #11A6E9;
+  color:white;
+}
+
+.graf {
+  width: 40%
+}
+
+.roboti {
+  margin: auto;
+  width: 40%
+}
+
+.notebook {
+  width: 80%;
+  margin: auto;
+}
+
+.ukazka1 {
+  width: 35%;
+  margin: auto;
+  background-color: #A30B37;
+  opacity: 0.8;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin: auto;
+  color:  #003990;
+}
+
+.autorky {
+  margin: auto;
+}
