@@ -85,11 +85,10 @@ body{
    margin: 10px;
    }
 
-.fotoTereza {
-  max-height: 200px;
-  width: 15%;
-}
- 
+ .fotoTereza {
+   max-height: 200px;
+ }
+
  .oMne{
    background-color:  #003990; 
    margin: 40px;
