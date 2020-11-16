@@ -19,8 +19,14 @@ body{
  button{
    width: 200px;
    height: 40px;
-   background-color: rgb(31, 66, 224);
+   background-color: #003990;
  }
+
+ .buttonTereza {
+  width: 200px;
+  height: 40px;
+  background-color: #A30B37;
+}
  
  a{
    color: white;
@@ -36,8 +42,17 @@ body{
    text-align: center;
    text-transform: uppercase;
    font-weight: bold;
-   color: rgb(31, 66, 224);
+   color: #003990;
    margin: 30px;
+ }
+
+ #tereza{
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #A30B37;
+  margin: 30px;
  }
  
  .uvodnifoto{
@@ -69,11 +84,21 @@ body{
    box-shadow: 4px 4px grey;
    margin: 10px;
    }
+
+.fotoTereza {
+  max-height: 200px;
+  width: 15%;
+}
  
  .oMne{
-   background-color: rgb(31, 66, 224); 
+   background-color:  #003990; 
    margin: 40px;
  }
+
+ .oMneTereza{
+  background-color: #A30B37; 
+  margin: 40px;
+}
  
  .tisicslov{
    font-size: 25px;
