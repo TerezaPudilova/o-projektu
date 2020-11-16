@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 html,
 body {
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .ramecObal {
@@ -69,6 +72,7 @@ body {
   background-color: #003990;
   margin: auto;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .mainHeadline {
@@ -79,6 +83,9 @@ body {
   width: 85%;
   margin: auto;
   text-align: center;
+  margin-bottom: 20px;
+  color: #003990;
+  font-size: 12px;
 }
 
 .ukazka {
@@ -87,6 +94,8 @@ body {
   text-align: center;
   background-color: #11A6E9;
   color:white;
+  margin-bottom: 50px;
+  padding: 5px;
 }
 
 .graf {
@@ -110,13 +119,74 @@ body {
   opacity: 0.8;
   text-align: center;
   color: white;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 10px;
 }
 
 h2 {
   margin: auto;
   color:  #003990;
+  margin-top: 20px;
 }
 
 .autorky {
   margin: auto;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.popisDotaznik {
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.notebook {
+  margin-top: 20px;
+}
+
+.roboti {
+  margin-top: -50px;
+}
+
+.graf {
+  margin: 15px;
+}
+
+.menu {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.castiMenu {
+  margin-left: 15px;
+  font-size: 15px;
+  color: #003990;
+  text-decoration: none;
+}
+
+.tlacitkoAutorky {
+  background-color: #11A6E9;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.tlacitkoUkazka {
+  text-decoration: none;
+  color: white;
+}
+
+.odkazAutor {
+  text-decoration: none;
+  color: white;
 }

@@ -9,18 +9,27 @@
 <body>
   <div class="ramecObal">
     <div class="ramec"> 
-        <section class="section1">
-          <div class="menu"></div>
+        <section id="domu" class="section1">
+          <div class="menu">
+            <nav>
+              <a class="castiMenu" href="#oautorkach">O autorkách</a>
+              <a class="castiMenu" href="#prumysl40">Průmysl 4.0</a>
+              <a class="castiMenu" href="#dotaznik">O dotazníku</a>
+              <a class="castiMenu" href="#ukazkadotazniku">Ukázka dotazníku</a>
+            </nav>
+          </div>
           <div class="hlavniNadpis">
             <h1 class="mainHeadline">Audit připravenosti na Industry 4.0</h1></div>
           <div class="popisProjektu">Jako náš závěrečný projekt jsme si připravili dotazník hodnotící připravenost firem pro implementaci principů Industry 4.0. Na tomto webu se dozvíte, co vůbec Industry 4.0. znamená, dále jak funguje dotazník, o také zde naleznete, kdo jsou autorky projektu. Příjemné čtení :)</div>
-          <button class="ukazka">Ukázka dotazníku</button>
+          <button class="ukazka" > 
+            <a class="tlacitkoUkazka "href="#ukazkadotazniku">Ukázka dotazníku</a>
+          </button>
         </section>
-        <section class="section2">
+        <section id="prumysl40" class="section2">
           <img class="roboti" src="./images/output-onlinepngtools (1).png">
           <div class="prumysl">Průmysl 4.0 (čtvrtá průmyslová revoluce) je označení pro současný trend digitalizace, s ní související automatizace výroby a změny na trhu práce. Filosofie Industry 4.0 nabízí možnosti na vytvoření  skutečně štíhlé firmy. Umožňuje jednodušší a obsáhlejší pochopení požadavků a potřeb zákazníků (big data) a okamžité sdílení potřebných informací přes komplexní řeťězce dodávek a sítí. Smart firmy produkují víc, s menším plýtváním - a stávají se tak víc konkurence schopné i na globálních trzích.</div>
         </section>
-        <section class="section3">
+        <section id="dotaznik" class="section3">
           <div class="popisDotaznik">Dotazník je rozdělen na 7 průřezových oblastí charakterizujících fungování firmy. Každá oblast obsahuje 7 otázek s alternativami odpovědí.
 
             Výstupem z hodnocení je Závěrečná zpráva, která graficky znázorní úroveň vaší společnosti  v definovaných oblastech. 
@@ -28,7 +37,7 @@
             </div>
           <img class="graf" src="./images/Graph.png">
         </section>
-        <section class="section4">
+        <section id="ukazkadotazniku" class="section4">
           <h2>Ukázka dotazníku</h2>
           <img class="notebook" src="./images/notebook.png">
           <div>
@@ -56,9 +65,10 @@
         </section>
         <section class="section8">
           <h2>O autorkách</h2>
-          <div class="autorky">
-            <button><a href="ingridpage.html">Ingrid</a></button>
-            <button>Tereza</button>
+          <div id="oautorkach" class="autorky">
+            <button class="tlacitkoAutorky"><a class="odkazAutor" href="ingridpage.html">Ingrid</a></button>
+            <button class="tlacitkoAutorky">
+              <a class="odkazAutor" href="terezapage.html">Tereza</a></button>
           </div>
         </section>
     </div>
